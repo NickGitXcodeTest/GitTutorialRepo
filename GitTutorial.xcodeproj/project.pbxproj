@@ -15,6 +15,8 @@
 		3700A3D61D86EA930095EB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3700A3D41D86EA930095EB5A /* LaunchScreen.storyboard */; };
 		3700A3E11D86EA930095EB5A /* GitTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3700A3E01D86EA930095EB5A /* GitTutorialTests.m */; };
 		3700A3EC1D86EA930095EB5A /* GitTutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3700A3EB1D86EA930095EB5A /* GitTutorialUITests.m */; };
+		3700A3FF1D86EFD50095EB5A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3700A3FD1D86EFD50095EB5A /* MapViewController.m */; };
+		3700A4001D86EFD50095EB5A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3700A3FE1D86EFD50095EB5A /* MapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3700A3E71D86EA930095EB5A /* GitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3700A3EB1D86EA930095EB5A /* GitTutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTutorialUITests.m; sourceTree = "<group>"; };
 		3700A3ED1D86EA930095EB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3700A3FC1D86EFD50095EB5A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3700A3FD1D86EFD50095EB5A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3700A3FE1D86EFD50095EB5A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +108,9 @@
 			children = (
 				3700A3C91D86EA930095EB5A /* AppDelegate.h */,
 				3700A3CA1D86EA930095EB5A /* AppDelegate.m */,
-				3700A3CC1D86EA930095EB5A /* ViewController.h */,
-				3700A3CD1D86EA930095EB5A /* ViewController.m */,
-				3700A3CF1D86EA930095EB5A /* Main.storyboard */,
-				3700A3D21D86EA930095EB5A /* Assets.xcassets */,
-				3700A3D41D86EA930095EB5A /* LaunchScreen.storyboard */,
+				3700A3FB1D86EFC30095EB5A /* map */,
+				3700A3F91D86EFAD0095EB5A /* VC */,
+				3700A3FA1D86EFB10095EB5A /* Storyboard */,
 				3700A3D71D86EA930095EB5A /* Info.plist */,
 				3700A3C61D86EA930095EB5A /* Supporting Files */,
 			);
@@ -138,6 +141,35 @@
 				3700A3ED1D86EA930095EB5A /* Info.plist */,
 			);
 			path = GitTutorialUITests;
+			sourceTree = "<group>";
+		};
+		3700A3F91D86EFAD0095EB5A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3700A3CC1D86EA930095EB5A /* ViewController.h */,
+				3700A3CD1D86EA930095EB5A /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		3700A3FA1D86EFB10095EB5A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3700A3CF1D86EA930095EB5A /* Main.storyboard */,
+				3700A3D21D86EA930095EB5A /* Assets.xcassets */,
+				3700A3D41D86EA930095EB5A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		3700A3FB1D86EFC30095EB5A /* map */ = {
+			isa = PBXGroup;
+			children = (
+				3700A3FC1D86EFD50095EB5A /* MapViewController.h */,
+				3700A3FD1D86EFD50095EB5A /* MapViewController.m */,
+				3700A3FE1D86EFD50095EB5A /* MapViewController.xib */,
+			);
+			name = map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +278,7 @@
 				3700A3D61D86EA930095EB5A /* LaunchScreen.storyboard in Resources */,
 				3700A3D31D86EA930095EB5A /* Assets.xcassets in Resources */,
 				3700A3D11D86EA930095EB5A /* Main.storyboard in Resources */,
+				3700A4001D86EFD50095EB5A /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +306,7 @@
 				3700A3CE1D86EA930095EB5A /* ViewController.m in Sources */,
 				3700A3CB1D86EA930095EB5A /* AppDelegate.m in Sources */,
 				3700A3C81D86EA930095EB5A /* main.m in Sources */,
+				3700A3FF1D86EFD50095EB5A /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
